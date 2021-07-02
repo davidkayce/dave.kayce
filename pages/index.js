@@ -27,6 +27,7 @@ const Home = () => {
     <Layout>
       <PageSection color={color}>
         <PageWrapper>
+          <div className='aside'><p>Industries - Energy & Utilities</p></div>
           <article>
             <h1 data-text="I'm Adenekan Wonderful" className="intro__text">
               <mark className="mark">I&apos;m Adenekan Wonderful</mark>
@@ -315,5 +316,16 @@ const PageSection = styled.div`
       }
     }
   }
+  .aside {
+    position: fixed;
+    top: 12rem;
+    left: -5.7rem;
+    transform: rotate(90deg);
+    animation: 0.6s ease-in-out 0.2s 1 normal forwards running techlineCopyAnimation;
+    line-height: 1;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
 `;
 export default Home;
