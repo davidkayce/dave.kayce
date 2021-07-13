@@ -29,20 +29,13 @@ const Home = () => {
         <PageWrapper>
           <div className='aside'><p>Industries - Energy & Utilities</p></div>
           <article>
-            <h1 data-text="I'm Adenekan Wonderful" className="intro__text">
-              <mark className="mark">I&apos;m Adenekan Wonderful</mark>
+            <h1 data-text="I'm David Ojimba" className="intro__text">
+              <mark className="mark">I&apos;m David Ojimba</mark>
             </h1>
             <p>
               {' '}
-              Frontend developer, UX architect and Javascript engineer,{' '}
-              <Link href="/lens">
-                <a aria-label="Go to Lens Page">
-                  <button type="button" tabIndex="-1">
-                    Photochromic Lens
-                  </button>
-                </a>
-              </Link>{' '}
-              enthusiast, practicing minimalist, and{' '}
+              Frontend developer and energy
+              enthusiast, practicing minimalist, and
               <a
                 href="https://open.spotify.com/playlist/2EH5NURI9OzRsMOFOGL70V"
                 target="_blank"
@@ -50,7 +43,7 @@ const Home = () => {
                 aria-label="View Music Playlist"
               >
                 <button type="button" tabIndex="-1">
-                  Pop Music & Jazz lover
+                  Music lover
                 </button>
               </a>{' '}
               in search of flow.
@@ -97,7 +90,7 @@ const Home = () => {
                 type="button"
                 aria-label="Send an email"
               >
-                hellocodewonders@gmail.com
+                dave.kayce@gmail.com
               </button>
               .
             </p>
